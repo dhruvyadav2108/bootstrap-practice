@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.general-margin{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+.design-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(133, 133, 133, 0.5);
+    color: white;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(1px);
+    z-index: 1000;
+}
+
+.design-navbar a{
+    color: white;
+}
+
+.middle-part{
+    margin-left: 15rem;
+}
+
+.middle-part ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    border-radius: 2rem;
+}
+
+.card img{
+    border-radius: 2rem 2rem 0 0;
+}
+.about-ipl{
+    display: flex;
+}
+
+.details,.image{
+    width: 48%;
+    margin: 3rem;
+}
+
+.image img{
+    width: 30rem;
+}
